@@ -20,6 +20,6 @@ def bigbutt(array, desc)
       b <=> a
     else
       a <=> b
-    end  
+    end
   end
-end  
+end
