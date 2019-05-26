@@ -1,7 +1,7 @@
 # Add  code here!
 require 'pry'
 def prime?(val)
-  if val <=  1
+  if val <= 1
     return false
   end
   startNum = 1
@@ -13,3 +13,13 @@ def prime?(val)
   end
   return true
 end
+
+def bigbutt(array, desc)
+  array.sort do |a, b|
+    if desc
+      b <=> a
+    else
+      a <=> b
+    end  
+  end
+end  
